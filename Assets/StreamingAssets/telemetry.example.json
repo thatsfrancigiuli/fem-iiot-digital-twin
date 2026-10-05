@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://api.your-iiot-platform.example",
+  "loginPath": "auth/login",
+  "valuesPath": "data/values",
+  "apiKey": "",
+  "tenantHeaderName": "X-Tenant",
+  "tenantId": "your-tenant",
+  "sessionCookieName": "",
+  "thingId": "your-asset-id",
+  "torqueMetricName": "Torque",
+  "pollIntervalSeconds": 60,
+  "email": "",
+  "password": ""
+}
