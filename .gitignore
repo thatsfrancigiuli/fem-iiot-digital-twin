@@ -1,0 +1,32 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.apk
+*.unitypackage
+.vs/
+.idea/
+.vscode/
+
+# Local configuration and credentials (never commit)
+Assets/StreamingAssets/telemetry.local.json
+Assets/StreamingAssets/telemetry.local.json.meta
+*.env
+
+# Confidential data (keep industrial FEM datasets out of the repository)
+PrivateData/
+
+# Python
+__pycache__/
+*.pyc
