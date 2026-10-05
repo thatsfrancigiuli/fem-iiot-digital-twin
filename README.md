@@ -1,9 +1,5 @@
 # Telemetry-paced FEM field visualization for industrial digital twins (Unity)
 
-Reference implementation accompanying the paper
-
-> F. Giuliani, F. Debdoubi, L. Frizziero, *Telemetry-Paced Visualization of Precomputed FEM Stress Fields: A Digital Twin Architecture for Industrial Gear Reducers*, submitted to *Advances in Engineering Software* (2026).
-
 The code binds a **precomputed FEM field** to **live torque telemetry** from an IIoT cloud platform and renders it on the asset geometry in Unity, without running the FEM solver at run time.
 
 - The FEM result is exported by the structural team as a node-wise table (CSV/TXT) and parsed once, in parallel, on a worker thread.
